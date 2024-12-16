@@ -1,0 +1,274 @@
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+ 
+h1 {
+font-size: 30px;
+font-weight: bold;
+margin: 20px;
+padding: 20px;
+text-align: center;
+}
+
+h2 {
+font-size: 30px;
+font-weight: bold;
+margin: 20px;
+padding: 20px;
+text-align: center;
+}
+
+h3 {
+font-size: 30px;
+font-weight: bold;
+margin: 20px;
+padding: 20px;
+text-align: center;
+}
+
+.paragraph {
+font-size: 18px;
+text-align: center;
+margin: 20px;
+padding: 20px;
+word-wrap: break-word;
+
+}
+
+footer {
+text-align: center;
+background-color: #523e0d;
+color: #f2a903;
+width: 100%;
+padding: 20px 0;
+}
+
+.about-us-banner img {
+  width: 100%; 
+  max-height: 250px;   
+  object-fit: cover;  
+}
+
+.container img {
+  width: 100%;    
+  max-height: 250px;        
+  object-fit: cover;  
+}
+
+.for-students-banner img{
+  width: 100%;    
+  max-height: 250px;         
+  object-fit: cover;  
+}
+
+info-banner img{
+  width: 100%;    
+  max-height: 250px;         
+  object-fit: cover;  
+}
+
+.students img {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.students2 img {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.classroom img {
+
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.building1 img{
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.building5 img{
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.lecturehall img{
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.building2 img{
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.controller img{
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.computing img{
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.design img{
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.rules img{
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+
+}
+
+.graffiti img{
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+
+}
+
+.building4 img{
+  width: 600px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+
+@media (max-width: 768px) {
+
+  .building5{
+    overflow:hidden;
+  }
+
+  .info-banner {
+    overflow: hidden;
+  }
+  .info-banner img {
+    transform: scale(2.5);
+  }
+
+  .for-students-banner {
+    overflow:hidden;
+  }
+
+  .for-students-banner img {
+    transform: scale(2.5);
+  }
+
+  .about-us-banner img {
+    transform: scale(2);
+  }
+
+  .workingwithus img {
+    transform: scale(2);
+  }
+
+  .workingwithus {
+    overflow:hidden;
+  }
+
+  .about-us-banner {
+    overflow:hidden;
+  }
+
+  .courses {
+    overflow:hidden;
+  }
+
+  .courses img {
+    transform: scale(2.5);
+  }
+
+  .students {
+    overflow:hidden;
+  }
+
+  .students2 {
+    overflow:hidden;
+  }
+
+  .classroom {
+    overflow:hidden;
+  }
+
+  .building1 {
+    overflow:hidden;
+  }
+
+  .lecturehall {
+    overflow:hidden;
+  }
+
+  .building2 {
+    overflow:hidden;
+  }
+
+  .controller {
+    overflow:hidden;
+  }
+
+  .computing {
+    overflow:hidden;
+  }
+
+  .design {
+    overflow:hidden;
+  }
+
+  .rules {
+    overflow:hidden;
+  }
+
+  .building4{
+    overflow:hidden;
+  }
+
+  footer {
+    overflow:hidden;
+  }
+}

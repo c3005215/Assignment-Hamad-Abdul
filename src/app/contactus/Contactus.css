@@ -1,0 +1,76 @@
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    font-size: 1em;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  .status-message {
+    text-align: center;
+    margin-top: 15px;
+    color: green;
+  }
+
+
+  .contactus img{
+    visibility: hidden;
+  }
+
+  .contactusheader {
+    visibility: visible;
+    font-size: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    
+    .form-group input,
+  .form-group textarea 
+    {
+      overflow:hidden;
+
+    }
+
+    .contactus
+    {
+      overflow:hidden;
+    }
+
+    .contactus img{
+      visibility: visible;
+      transform: scale(2);
+    }
+
+    .contactusheader{
+      visibility:hidden;
+    }
+
+
+  
+  } 
